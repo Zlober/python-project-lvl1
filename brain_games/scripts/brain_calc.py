@@ -4,7 +4,6 @@ from brain_games.games.calc import calc
 
 def main():
     name = greeting()
-    print(name)
     calc(name)
 
 
