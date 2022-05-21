@@ -2,10 +2,8 @@ import prompt
 from random import randint
 
 
-def even_game():
-    name = prompt.string('May I have your name? ', empty=False)
-    print(f'Hello, {name}!\n'
-          f'Answer "yes" if the number is even, otherwise answer "no".')
+def even_game(name):
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     for i in range(1, 4):
         number = randint(1, 100)
         correct_answer = number % 2 == 0 and 'yes' or 'no'
@@ -22,7 +20,3 @@ def even_game():
             break
     else:
         print(f'Congratulations, {name}!')
-
-
-if __name__ == '__main__':
-    even_game()
