@@ -4,4 +4,5 @@
 ![Linter
 check](https://github.com/Zlober/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)
 
-https://asciinema.org/a/o5fuUtcudgto41jBA3DoQf19r
+https://asciinema.org/a/o5fuUtcudgto41jBA3DoQf19r even game
+https://asciinema.org/a/HtgVfqztEqfrhQkSKaL5yLMnm calculator game
