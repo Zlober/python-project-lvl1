@@ -1,9 +1,10 @@
 from brain_games.games import greeting
-from brain_games.games import calc
+from brain_games.games.gcd import gcd
+
 
 def main():
     name = greeting()
-    calc(name)
+    gcd(name)
 
 
 if __name__ == '__main__':
