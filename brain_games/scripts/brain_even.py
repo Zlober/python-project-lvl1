@@ -1,11 +1,11 @@
 #!usr/bin/env python
-from brain_games.games import greeting
+from brain_games.games import start_message_game
 from brain_games.games.even import even_game
 
 
 def main():
-    name = greeting()
-    even_game(name)
+    message = 'Answer "yes" if the number is even, otherwise answer "no".'
+    start_message_game(even_game, message)
 
 
 if __name__ == '__main__':
