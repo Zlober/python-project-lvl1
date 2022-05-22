@@ -1,3 +1,9 @@
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/Zlober/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Zlober/python-project-lvl1/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+![Linter
+check](https://github.com/Zlober/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)
+
 The collection of brain	games.
 
 Requirements:
@@ -31,9 +37,4 @@ https://asciinema.org/a/XwWrxqsStQrNBlwoEsWXUticH
 brain-prime:
 https://asciinema.org/a/chuEKOjQHle7wm7Cf7HqsoEo6
 
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Zlober/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Zlober/python-project-lvl1/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
-![Linter
-check](https://github.com/Zlober/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)
 
