@@ -1,10 +1,10 @@
 from brain_games.games import greeting
-from brain_games.games.calc import calc
+from brain_games.games.prime import prime
 
 
 def main():
     name = greeting()
-    calc(name)
+    prime(name)
 
 
 if __name__ == '__main__':
