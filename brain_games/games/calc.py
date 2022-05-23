@@ -14,5 +14,5 @@ def calc():
 
 def expressions(a, b, expression):
     return expression == '+' and a + b or \
-            expression == '-' and a - b or \
-            expression == '*' and a * b
+        expression == '-' and a - b or \
+        expression == '*' and a * b
