@@ -9,7 +9,7 @@ def calc():
     rand_expressions = choice(expressions_list)
     question = f'{a} {rand_expressions} {b}'
     correct_answer = expressions(a, b, rand_expressions)
-    return question, correct_answer,
+    return question, correct_answer
 
 
 def expressions(a, b, expression):
