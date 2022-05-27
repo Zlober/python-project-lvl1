@@ -15,5 +15,5 @@ def rule():
     correct_answer = str(numbers[index_number])
     numbers[index_number] = '..'
     numbers = ' '.join(numbers)
-    question = numbers
+    question = f'Question: {numbers}'
     return question, correct_answer
