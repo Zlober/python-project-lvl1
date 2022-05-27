@@ -1,11 +1,10 @@
 #!usr/bin/env python
-from brain_games.games import start_number_game
-from brain_games.games.gcd import gcd
+from brain_games.engine import start_game
+import brain_games.games.gcd as game
 
 
 def main():
-    message = 'Find the greatest common divisor of given numbers.'
-    start_number_game(gcd, message)
+    start_game(game)
 
 
 if __name__ == '__main__':

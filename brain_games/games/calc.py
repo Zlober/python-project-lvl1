@@ -1,14 +1,16 @@
 from random import randint
 from random import choice
 
+DESCRIPTION = 'What is the result of the expression?'
 
-def calc():
+
+def rule():
     a = randint(1, 100)
     b = randint(1, 100)
     expressions_list = ('+', '-', '*')
     rand_expressions = choice(expressions_list)
-    question = f'{a} {rand_expressions} {b}'
-    correct_answer = expressions(a, b, rand_expressions)
+    question = f'Question: {a} {rand_expressions} {b}'
+    correct_answer = str(expressions(a, b, rand_expressions))
     return question, correct_answer
 
 

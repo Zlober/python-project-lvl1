@@ -1,7 +1,9 @@
 from random import randint
 
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
-def prime():
+
+def rule():
     a = randint(1, 100)
     b = a
     for i in range(2, a):

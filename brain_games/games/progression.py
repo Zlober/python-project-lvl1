@@ -1,7 +1,9 @@
 from random import randint
 
+DESCRIPTION = 'What number is missing in the progression?'
 
-def progression():
+
+def rule():
     start_number = randint(1, 100)
     step = randint(1, 100)
     lens = randint(5, 10)
@@ -10,7 +12,7 @@ def progression():
         numbers.append(str(start_number + step))
         start_number += step
     index_number = randint(0, len(numbers) - 1)
-    correct_answer = int(numbers[index_number])
+    correct_answer = str(numbers[index_number])
     numbers[index_number] = '..'
     numbers = ' '.join(numbers)
     question = numbers
