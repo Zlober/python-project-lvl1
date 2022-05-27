@@ -13,5 +13,5 @@ def rule():
             break
     else:
         correct_answer = 'yes'
-    question = a
+    question = f'Question: {a}'
     return question, correct_answer
