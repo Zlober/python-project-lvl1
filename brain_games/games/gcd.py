@@ -7,7 +7,8 @@ def get_question_and_answer():
     a = randint(1, 100)
     b = randint(1, 100)
     correct_answer = str(evc_func(a, b))
-    question = f'{a} {b}'
+    question = a, b
+    question = ' '.join(str(string) for string in question)
     return question, correct_answer
 
 

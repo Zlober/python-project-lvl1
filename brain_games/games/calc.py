@@ -15,5 +15,6 @@ def get_question_and_answer():
     }
     operation = choice(list(operations.keys()))
     correct_answer = str(operations[operation](a, b))
-    question = f'{a} {operation} {b}'
+    question = a, operation, b
+    question = ' '.join(str(string) for string in question)
     return question, correct_answer
