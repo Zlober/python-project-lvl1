@@ -7,8 +7,8 @@ def start_game(game):
     print(f'Hello, {name}!')
     print(game.DESCRIPTION)
     for i in range(1, 4):
-        question, correct_answer = game.rule()
-        print(question)
+        question, correct_answer = game.get_question_and_answer()
+        print(f'Question: {question}')
         answer = prompt.string('Your answer: ', empty=False)
         if correct_answer == answer:
             print('Correct!')

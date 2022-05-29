@@ -3,11 +3,11 @@ from random import randint
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def rule():
+def get_question_and_answer():
     a = randint(1, 100)
     b = randint(1, 100)
     correct_answer = str(evc_func(a, b))
-    question = f'Question: {a} {b}'
+    question = f'{a} {b}'
     return question, correct_answer
 
 
